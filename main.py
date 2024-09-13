@@ -62,7 +62,7 @@ CREATE TABLE IF NOT EXISTS important_events (
 conn.commit()
 
 
-bot = telebot.TeleBot('7430719579:AAEbBWVSgmrjdm0JXY9FruhTVXqxlELYjhM')  #7539784956:AAHSTLqowwWwkLX_wA2rJ_tdosUDzo02Np0 Основа:7430719579:AAEbBWVSgmrjdm0JXY9FruhTVXqxlELYjhM
+bot = telebot.TeleBot('') 
 
 commands = [
     BotCommand("start", "Начать или продолжить общение"),
